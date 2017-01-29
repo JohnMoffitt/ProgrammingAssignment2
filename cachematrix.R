@@ -1,3 +1,4 @@
+## Testing commit by adding name - John Moffitt
 ## makeCacheMatrix is in the same format as makeVector
 ## it replaces numeric vector class with matrix R object, it nulls out the matrix, sets the value of the matrix, 
 ## gets the value of the matrix, sets the value of the inverse matrix, gets the value of the inverse matrix
@@ -33,4 +34,5 @@ cacheSolve <- function(x, ...) {
   mtx <- solve(data)
   x$setInvMatrix(mtx)
   mtx
-}
+
+  }
